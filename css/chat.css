@@ -1,0 +1,106 @@
+/* Barre de la messagerie */
+#messagerie-barre { 
+	position: fixed; 
+	width: 600px;
+	bottom: 39px; 
+	right: 70px;
+}
+
+/* Déplacement à droite pour affichage staff */
+.barre-chat-droite {
+	width: 300px;
+	margin-left: 300px;
+}
+
+/* Bouton de la messagerie */
+.messagerie-petit {
+	border-radius: 20px 20px 0px 0px;
+	border: 1px solid #707070;
+}
+
+/* Très petit texte */
+.tres-petit-texte {
+	font-size: 14px;
+}
+
+/* Zone des messages pour le staff */
+.tabeau-chat {
+	height: 360px;
+}
+
+/* Bouton pour répondre aux messages */
+.bouton-sans-decoration {
+    background-color: transparent;
+    border: none;
+}
+
+/* Mise en page du tableau et formatage du texte */
+.conversation {
+	height: 320px;
+}
+
+/* Tableau contenant les messages */
+.Correspondant table {
+	border-spacing: 0px;
+	margin: auto;
+	padding-top: 7px;
+	color: white;
+}
+
+/* Boite de message staff et client */
+#boite-staff, #boite-client {
+	min-width: 8px;
+	max-width: 270px;
+	min-height: 30px;
+	padding: 6px 12px;
+	font-size: 15px;
+	border-radius: 20px;
+}
+
+/* Boite de message staff */
+#boite-staff {
+	background-color: #4F6457;
+	color: white;
+}
+
+
+/* Boite de message client */
+#boite-client {
+	background-color: #DDBC95;
+	color: black;
+	border: 1px solid #707070;
+}
+
+
+/* Zone de texte pour le message */
+.message {
+	background-color: white;
+	height: 40px;
+}
+
+/* Mise en page du tableau et formatage du texte */
+.message table {
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	color: white;
+}
+
+/* Placement et taille du formulaire de texte */
+.message #message {
+	width: 299px;
+	height: 40px;
+	border: none;
+	padding-right: 45px;
+}
+
+/* Icon d'envoie */
+#envoyer {
+	margin-top: 5px;
+	height: 30px;
+	position: relative;
+	top: 15px;
+	right: 40px;
+	transform: translateY(-50%);
+	color: #fff;
+}

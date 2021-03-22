@@ -1,0 +1,388 @@
+/* Importation de la police d'écriture Titillium Web */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+
+/* Paramètres globaux des pages */
+body {
+	margin: 0;
+	padding: 0;
+    height: 100%;
+	background: #CDCDC0;
+	font-family: "Titillium Web", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+}
+
+
+/* Redéfinition des couleurs des boutons */
+/* Bouton principal */
+.btn-primary, .btn-primary:hover {
+	background: #4F6457;
+	border-radius: 20px;
+	border: 1px solid #4F6457;
+}
+
+/* Bouton secondaire */
+.btn-secondary, .btn-secondary:hover {
+	background: #DBDBDB;
+	border-radius: 20px;
+	border: 1px solid #707070;
+	color: black;
+}
+
+/* Bouton tertiaire */
+.btn-tertiary, .btn-tertiary:hover {
+	background: #DDBC95;
+	border-radius: 20px;
+	border: 1px solid #707070;
+	color: black;
+}
+
+/* Bouton rouge */
+.btn-rouge, .btn-rouge:hover {
+	background: #FF484B;
+	border-radius: 20px;
+	border: 1px solid #707070;
+}
+
+/* Texte de suppression de compte */
+#suppression-compte {
+	color: red;
+}
+
+/* Bordures */
+.bordures {
+	border: 1px solid #707070;
+}
+
+/* Position du contenu de la page */
+#position-contenu-page {
+	padding: 70px 0 40px 0;
+}
+
+/* Position du contenu pour les pages de profils */
+#position-contenu-page-profil {
+	padding: 0;
+    margin: 0;
+}
+
+/* Ajout d'une largeur de 45% */
+.w-45 {
+	width: 45%;
+}
+
+/* Ajout d'une largeur de 60% */
+.w-60 {
+	width: 60%;
+}
+
+/* Couleurs des panneaux principaux */
+/* Panneau clair */
+.panneau-clair {
+	background: #DDBC95;
+}
+
+/* Panneau foncé */
+.panneau-sombre {
+	background: #B38867;
+}
+
+/* Panneau gris */
+.panneau-gris {
+	background: #DBDBDB;
+}
+
+/* Panneau arrondi */
+.panneau-arrondi {
+	border-radius: 100px;
+	border: 1px solid #707070;
+}
+
+/* Centrage des pages d'alertes */
+#centrage-page-alerte {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: rgba(0,0,0,0.4)
+}
+
+/* Couleurs et tailles des séparateurs */
+/* Paramètres globaux */
+hr {
+	background: #707070;
+}
+
+/* Petit séparateur */
+#petit-separateur {
+	background: #707070;
+	width: 350px;
+}
+
+/* Séparateur actif du panier */
+#separateur-panier-actif {
+	border: 1px double black;
+}
+
+/* Séparateur caché du panier */
+.separateur-panier-cache {
+	border: 1px double #8A8A8A;
+}
+
+/* Séparateur large */
+.separateur-large {
+	border: 2px double #707070;
+}
+
+/* Séparateur vertical */
+#vertical {
+   width : 1px;
+   height : 100%;
+}
+
+/* Taille du titre */
+/* Re-définition de la taille et couleur de la police */
+label, .texte, .texte-conditions, .titre, .titre-cache, .titre-moyen, .petit-titre, .petit-titre-produit, .petit-prix-produit, .text-panier, .total-panier, .petit-texte, .tres-petit-texte, #mdp-oublie {
+	font-size: 18px;
+	color: black;
+}
+
+/* Titre */
+.titre {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* Titre caché */
+.titre-cache {
+	font-size: 30px;
+	color: #8A8A8A;
+}
+
+/* Titre de taille moyenne */
+.titre-moyen {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* Prix */
+.prix {
+	font-size: 24px;
+}
+
+/* Nom des utilisateurs des commentaires / questions */
+.texte-nom {
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+/* Date des commentaires / questions */
+.texte-date {
+	font-size: 14px;
+}
+
+/* Petit titre */
+.petit-titre {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Petit titre de produit */
+.petit-titre-produit {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Petit titre et petit texte */
+.petit-prix-produit, .petit-texte {
+	font-size: 16px;
+}
+
+/* Très petit texte */
+.tres-petit-texte {
+	font-size: 13px;
+}
+
+/* Texte du panier */
+.texte-panier {
+	font-size: 20px;
+	color: black;
+}
+
+/* Total du panier */
+.total-panier {
+	font-size: 24px;
+}
+
+/* Eléments cliquable des conditions de l'inscription */
+.texte-conditions, .texte-conditions:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+/* Liens bleus */
+.lien, .lien:hover, .petit-lien, .petit-lien:hover, #mdp-oublie {
+	font-size: 18px;
+	color: #3B72E1;
+	text-decoration: none;
+}
+
+/* Petit lien */
+.petit-lien, .petit-lien:hover {
+	font-size: 16px;
+}
+
+/* Lien sans décoration du texte */
+.lien-sans-decoration, .lien-sans-decoration:hover {
+	text-decoration: none;
+}
+
+/* Couleur blanche */
+.blanc {
+	color: white;
+}
+
+/* Couleur rouge */
+.rouge {
+	color: red;
+}
+
+/* Mot de passe oublié */
+#mdp-oublie {
+	font-size: 14px;
+}
+
+/* Panneau contenant la carte */
+#panneau-carte {
+	padding: 6px 50px 0 50px;
+}
+
+/* Zone contenant la carte */
+#carte {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+/* Carte */
+#carte iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Petite image de produit */
+.petite-image-produit {
+	max-height: 166px;
+}
+
+
+/* Petite image */
+.petite-image-panier, .petit-avatar-compte, .petite-image-article {
+	max-height: 100px;
+}
+
+
+/* Image d'article */
+.image-article {
+	max-height: 366px;
+}
+
+/* Quantité d'un produit */
+.quantite-produit {
+	width: 60px;
+}
+
+/* Autres couleurs pour les articles */
+.autres-couleurs-article {
+	width: 75px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.sans-fleches::-webkit-outer-spin-button,
+.sans-fleches::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.sans-fleches {
+  -moz-appearance: textfield;
+}
+
+/* Barre de recherche */
+.recherche-page {
+	position: relative;
+	width: 60%;
+	align-self: center;
+	margin: 6px 10px 0 0;
+}
+/* Pour une largeur maximale de 992px */
+@media (max-width: 992px) {
+	.recherche-page {
+		position: relative;
+		width: 75%;
+		align-self: center;
+		margin: 6px 10px 0 0;
+	}
+}
+/* Pour une largeur maximale de 768px */
+@media (max-width: 768px) {
+	.recherche-page {
+		position: relative;
+		width: 90%;
+		align-self: center;
+		margin: 6px 10px 0 0;
+	}
+}
+/* Pour une largeur maximale de 576px */
+@media (max-width: 576px) {
+	.recherche-page {
+		position: relative;
+		width: 95%;
+		align-self: center;
+		margin: 6px 10px 0 0;
+	}
+}
+
+/* Zone de recherche */
+.recherche-page input[type="text"]{
+	width: 100%;
+	padding-right: 25px;
+	background: white;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: 2px solid white;
+	font-size: 14px;
+	text-indent: 10px;
+	color: black;
+	outline: none;
+}
+
+/* Icon de recherche dans la barre de recherche */
+#icon-recherche-page {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	color: #fff;
+}
+
+/* Boite de zoom pour la page d'article */
+* {box-sizing: border-box;}
+
+.boite-zoom {
+  position: relative;
+}
+
+/* Style du cercle de zoom */
+.zoom {
+  position: absolute;
+  border: 2px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  width: 100px;
+  height: 100px;
+}

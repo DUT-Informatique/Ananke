@@ -1,0 +1,90 @@
+/* Importation de la police d'écriture Titillium Web */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+
+/* Paramètres généraux du header et footer */
+.navbar, footer {
+	background: #4F6457;
+	font-family: "Titillium Web", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+/* Texte du logo */
+#ananke {
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+}
+
+/* Redéfinition de la taille maximale du header */
+.container-xl {
+	max-width: 1400px;
+}
+
+/* Liens principaux visible dans le menu */
+.nav-link, .nav-link:hover {
+	font-size: 20px;
+	color: white;
+}
+
+/* Texte du footer */
+#texte-footer {
+	font-size: 16px;
+	color: white;
+}
+
+/* Barre de recherche du header */
+.recherche {
+	position: relative;
+	width: 185px;
+	margin: 6px 10px 0 0;
+}
+
+/* Zone de recherche */
+.recherche input[type="text"]{
+	float: right;
+	width: 185px;
+	padding-right: 25px;
+	background: white;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: 2px solid white;
+	font-size: 14px;
+	text-indent: 10px;
+	color: black;
+	outline: none;
+}
+
+/* Icon de recherche dans la barre de recherche */
+.icon-recherche {
+  position: absolute;
+  top: 13px;
+  transform: translateY(-50%);
+  right: 10px;
+  color: #fff;
+}
+
+/* Séparateur du menu pour vue mobile */
+#separateur-blanc {
+	border: 1px double white;
+}
+
+/* Bouton de recherche */
+.btn-rechercher, .btn-rechercher:hover {
+	background: #DBDBDB;
+	border: 1px solid #707070;
+	color: black;
+}
+
+/* Bouton de retour en haut */
+#retour_haut { 
+	position: fixed; 
+	width: 40px; 
+	height: 25px; 
+	bottom: 65px; 
+	right: 15px; 
+}
+
+/* Image du bouton de retour en haut */
+#retour_haut img { 
+	width: 40px; 
+}

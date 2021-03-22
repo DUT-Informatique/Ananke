@@ -1,12 +1,12 @@
 # Ananké
 Projet de substitution du stage de fin d'année du DUT Informatique.  
 Création d'une boutique en ligne de vêtements avec gestions des produits, des commentaires et notes, des comptes clients et des paiements.  
-[Démo du site](https://ananke.minarox.fr/)
+[Démo du site](https://dut.minarox.fr/ananke/)
 
 ## Sommaire
-* [Fonctionnalités](https://gitlab.com/dut-info/web/ananke#fonctionnalit%C3%A9s)
-* [Administration](https://gitlab.com/dut-info/web/ananke#administration)
-* [Technologies utilisées](https://gitlab.com/dut-info/web/ananke#technologies-utilis%C3%A9es)
+* [Fonctionnalités](https://github.com/dut-informatique/ananke#fonctionnalit%C3%A9s)
+* [Administration](https://github.com/dut-informatique/ananke#administration)
+* [Technologies utilisées](https://github.com/dut-informatique/ananke#technologies-utilis%C3%A9es)
 
 ## Fonctionnalités
 **Comptes clients**  
@@ -63,4 +63,4 @@ Ils peuvent alors directement répondre aux questions / demandes des clients.
 * [Bootstrap](https://getbootstrap.com/)
 * PHP
 * JavaScript
-* SQL
+* MySQL

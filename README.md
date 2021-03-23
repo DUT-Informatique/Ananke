@@ -61,6 +61,6 @@ Ils peuvent alors directement répondre aux questions / demandes des clients.
 * HTML 5
 * CSS 3
 * [Bootstrap](https://getbootstrap.com/)
-* PHP
+* [PHP](https://www.php.net/)
 * JavaScript
-* MySQL
+* [MySQL](https://www.mysql.com/)

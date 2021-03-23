@@ -1,4 +1,5 @@
 # Ananké
+![images/ananke_homepage.png](images/ananke_homepage.png)  
 Projet de substitution du stage de fin d'année du DUT Informatique.  
 Création d'une boutique en ligne de vêtements avec gestions des produits, des commentaires et notes, des comptes clients et des paiements.  
 [Démo du site](https://dut.minarox.fr/ananke/)
